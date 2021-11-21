@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- COMENTARIO -->
+
+<html>
+  <head>
+    <script>
+      function myPopup() {
+        var popup = document.getElementById('myPopup')
+        popup.classList.toggle('show')
+      }
+    </script>
+    <title id="userTitle">Sammy Pr - DoWhile 2021</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/build.svg" alt="Selo Rocketseat" />
+          </span>
+          <img
+            src="https://lorempixel.com/185/185/people/"
+            alt="Foto Pessoal"
+            id="userImage"
+          />
+        </div>
+
+        <h1 id="userName">Sammy Pr</h1>
+        <a
+          id="userLink"
+          href="https://www.instagram.com/sammy.pr2/"
+          target="_blank"
+        >
+          <img src="images/github.svg" alt="github" />
+          <span id="userLogin">sammypr2</span></a
+        >
+
+        <p id="userBio">
+          An instructor focused on helping people start programming for web
+        </p>
+
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com/maykbrito" target="_blank">
+              <img src="images/youtube.svg" alt="ícone youtube" />
+            </a>
+          </li>
+          <li
+            onclick="copyTest()"
+            id="discordImage"
+            class="discord"
+            onmousedown="WhichButton(event)"
+          >
+            <div class="popup" onclick="myPopup()">
+              <span class="popuptext" id="myPopup">Copied Samantha#5368 </span>
+            </div>
+            <img src="images/discord.svg" width="48px" height="48px" />
+          </li>
+          <li class="instagram">
+            <a href="https://instagram.com/maykbrito" target="_blank">
+              <img src="images/instagram.svg" alt="ícone instagram" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+﻿2021-05-01 16:11:34, Info                  SP     CSetupPlatform::Initialize: Setup log starts:
+2021-05-01 16:11:34, Info                  SP     SEH: Enter CExceptionHandler::CExceptionHandler
+2021-05-01 16:11:34, Info                  SP     SEH: Exit CExceptionHandler::CExceptionHandler
+2021-05-01 16:11:34, Info                         There is already a running setup user mode etw session!
+2021-05-01 16:11:34, Info                         VDS available
+2021-05-01 16:11:34, Info                         Key CollectTrace is not available.
+2021-05-01 16:11:34, Info                  SP     Attempting to resurrect a new system from C:\$Windows.~BT\Sources
+2021-05-01 16:11:34, Warning               SP     CSetupPlatform::ResurrectNewSystem: Cannot find new system serialized data.
+2021-05-01 16:11:34, Info                  SP     Suspending and releasing setup platform
+2021-05-01 16:11:34, Info                  SP     Upload telemetry data based on environment variable
+2021-05-01 16:11:34, Info                         Copy telemetry file: source folder: C:\$Windows.~WS\Sources\Panther, destination folder: C:\ProgramData\Microsoft\Diagnosis\ETLLogs
+2021-05-01 16:11:34, Info                         Copy etl files: source: C:\$Windows.~WS\Sources\Panther\DlTel-Merge.etl, destination: C:\ProgramData\Microsoft\Diagnosis\ETLLogs\DlTel-Merge.etl
+2021-05-01 16:11:34, Info                         pCopyTelemetryFile: Wrote CV 20ACBEocy0a1K4eM.2 to ETL C:\ProgramData\Microsoft\Diagnosis\ETLLogs\DlTel-Merge.etl:$ETLUNIQUECVDATA
+2021-05-01 16:11:34, Info                         Diagtrack service is running
+2021-05-01 16:11:34, Info                         Successfully Forceuploaded the telemetry data.
+2021-05-01 16:11:34, Info                         Upload files successfully so we can remove all etl files.
+2021-05-01 16:11:34, Info                  SP     Closing Panther Logging
